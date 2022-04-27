@@ -6,40 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G.E.B. Ubicacion</title>
     <link href="../Css/Style.css" rel="stylesheet" type="text/css">
+    <link href="../Css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body class="MainBody">
-    <header class="MainHeader">
-        <nav>
-            <ul>
-                <li class="li-logo">
-                    <img src="../Assets/Img/logo.png" class="Logo-Animado">
-                </li>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../Views/Ubicacion.html">Ubicación</a>
-                </li>
-                <li>
-                    <a href="../Views/OctoberFest.html">OctoberFest</a>
-                </li>
-                <li>
-                    <a href="../Views/Menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="../Views/Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="Contenedor">
-        <h1 class="TituloPrincipal">Ubicación</h1>
-    <p>
-        
-    </p>
-    <!-- Texto a definir -->
-    </div>
-    <iframe class="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.569939733469!2d-58.47284894872144!3d-34.53912228038048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a39117fa9d%3A0x32d1f15220323e9f!2sPico%202052%2C%20C1429EFH%20CABA!5e0!3m2!1ses-419!2sar!4v1649268500889!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Views/Ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Views/OctoberFest.html">OctoberFest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Views/Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Views/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    </nav>
+    <main class="container">
+        <div class="bg-light p-5 rounded">
+            <h1 class="TituloPrincipal">Ubicación</h1>
+            <iframe class="Mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.569939733469!2d-58.47284894872144!3d-34.53912228038048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a39117fa9d%3A0x32d1f15220323e9f!2sPico%202052%2C%20C1429EFH%20CABA!5e0!3m2!1ses-419!2sar!4v1649268500889!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    
     
     <footer  class="Mainfooter">
         <div>
@@ -47,5 +49,6 @@
             <a href="#">Whatsapp</a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
