@@ -7,14 +7,9 @@
     overflow: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    color: White;
     position: relative;
     width: 100%;
 	height: 100%;
-    display: grid;
-    grid-template-areas: "Header" 
-                         "Contenedor"
-                         "Fotter";
 }
 .MainHeader
 {
@@ -109,6 +104,8 @@
 }
 .li-logo{
     height: 56px;
+    position: sticky;
+    width: 180px;
 }
 .Logo-Animado{
     width: 180px;
@@ -116,6 +113,7 @@
     animation-name:Logo;
     animation-duration:2s;
     animation-iteration-count:Infinite;
+    
 }
 @keyframes Logo
 {
